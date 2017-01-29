@@ -77,6 +77,7 @@ describe('LinkedList', () => {
             list.append(32);
             list.append(47);
 
+
             list.insertAt(position, data);
 
             expect(list.at(position)).to.equal(data);
